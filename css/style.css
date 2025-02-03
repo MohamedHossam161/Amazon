@@ -1,0 +1,57 @@
+nav{
+    background-color: #232f3e;
+}
+.navbar .form-control {
+    width: 500px;
+}
+#input::placeholder{
+    color: black;
+}
+p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+#accountModal a{
+    transition: 0.3s;
+}
+#accountModal a:hover{
+    border-bottom: 2px solid red;
+    color: red;
+}
+@media(max-width:990px){
+    .navbar .form-control  {
+        width: 50px;
+
+    }
+    .navbar .input-group  {
+        margin:  5px 0;
+        
+    }
+    #navbarSupportedContent ul{
+        justify-content: start;
+    }
+  #navbarSupportedContent ul li{
+    padding: 15px;
+    border-bottom: 1px solid rgb(133, 133, 133);
+    width: 100%;    
+    margin: 0;
+    transition: 0.3s;
+  }  
+  #navbarSupportedContent ul li:hover{
+    border-bottom: 1px solid rgb(205, 205, 205);
+    font-weight: bold;
+}
+  /* #navbarSupportedContent .nav-item{
+    margin: 5px 0px;
+    border: 1px solid white;
+    padding: 10px;
+    width: 100%;
+  } */
+}
+@media(max-width:1267px){
+    .navbar .form-control {
+        width: 250px;
+    }
+}
